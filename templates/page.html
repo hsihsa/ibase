@@ -1,7 +1,18 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
-  {{ this.call }}
+
+<div class="row">
+	<div class="container">
+		<div class="eight columns">
+      <h2>{{ this.title }}</h2>
+			{{ this.body }}
+		</div>
+    <div class="four columns">
+      <h2>{{ this.calltitle }}</h2>
+      {{ this.call }}
+    </div>
+	</div>
+</div><!--Row Green-->
+
 {% endblock %}
