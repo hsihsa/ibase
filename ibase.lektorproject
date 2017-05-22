@@ -2,4 +2,4 @@
 name = ibase
 
 [servers.ghpages]
-target = ghpages://hsihsa.github.io/ibase
+target = ghpages+https://hsihsa/ibase
