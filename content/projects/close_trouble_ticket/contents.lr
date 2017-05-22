@@ -1,0 +1,18 @@
+_model: page
+---
+title: Close Trouble Ticket
+---
+body:
+
+1. Click **Resolution Type** and select the required option
+2. Enter a brief description in the **Resolution Description** field
+3. If you have added notification details, ensure the **Preferred Method** is set to **Phone**
+- When we front end close a ticket, we have already confirm with the customer whilst on the phone that the issue is resolved
+4. Set **Status** to Closed
+5. Set **Sub-Status** to Completed
+6. Press **Ctrl + S** to save the record
+(Alternatively you can select **Save Record** from the **File** menu)
+
+Do not use this to cancel a Trouble Ticket
+
+[Continue](/)

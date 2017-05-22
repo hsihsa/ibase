@@ -1,0 +1,9 @@
+_model: page
+---
+title: Are they connected to a working internet connection?
+---
+body:
+
+[Yes](../lightbox)
+
+[No](../isp)

@@ -1,0 +1,18 @@
+_model: page
+---
+title: Troubleshoot as a standard speed issue
+---
+body:
+- [This is point one] (../)
+
+- This is point two
+
+* If your customer is a Spark Broadband customer, select Spark Broadband below to start Broadband Troubleshooting
+
+* If your customer is a Non-Spark Broadband customer- your customer will need to contact their ISP
+
+Spark Broadband
+
+Non-Spark Broadband
+---
+call: No Call Script for this page

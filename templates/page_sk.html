@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="container main">
+	<div class="row">
+		<div class="four columns">
+			<img src="{{ '/static/images/broadband.png'|url }}" />
+		</div>
+		<div class="four columns">
+			<img src="{{ '/static/images/lightbox.png'|url }}" />
+		</div>
+		<div class="four columns">
+			<a href="{{ '/wi-fi'|url }}"><img src="{{ '/static/images/wifi.png'|url }}" /></a>
+		</div>
+	</div>
+
+<!-- comment second row
+	<div class="row">
+		<div class="four columns portfolio">
+			<img src="images/on_safari.jpg" />
+		</div>
+		<div class="four columns portfolio">
+			<img src="images/overlook_mtn.jpg" />
+		</div>
+		<div class="four columns portfolio">
+			<img src="images/paris_couple.jpg" />
+		</div>
+	</div>
+-->
+
+<!-- comment last row
+	<div class="row">
+		<div class="four columns portfolio">
+			<img src="images/single_rider.jpg" />
+		</div>
+		<div class="four columns portfolio">
+			<img src="images/sunset_beach.jpg" />
+		</div>
+		<div class="four columns portfolio">
+			<img src="images/toes_sand.jpg" />
+		</div>
+	</div>
+-->
+</div><!--Container-->
+
+<div class="row green">
+	<div class="container">
+		<div class="eight columns">
+      <h2 class="bio">{{ this.title }}</h2>
+			{{ this.body }}
+		</div>
+    <div class="four columns">
+      <h2 class="bio">{{ this.calltitle }}</h2>
+      {{ this.call }}
+    </div>
+	</div>
+</div><!--Row Green-->
+{% endblock %}
